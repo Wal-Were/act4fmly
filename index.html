@@ -1,153 +1,141 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
 
-<style>
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+<style> 
+#example1 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2TOpgE8hZ_L3DiDXJ_-tgeccrBtm4_P0va3MhbL6mwiVFTEj_7ocG4j-xJK2IzoDxRR8&usqp=CAU) right bottom no-repeat, url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHUApwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAADAgABBwYF/8QAGxABAQEBAAMBAAAAAAAAAAAAAQACERIxYUH/xAAZAQEBAQEBAQAAAAAAAAAAAAADAAECBgX/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIREv/aAAwDAQACEQMRAD8A/C58uck5bl9t8TokuJIlxKb0SUpMlKU6lElCTcpS11KJKElSlKJKJKElSlKdyhShJkoS13KFKdSseiiSiSjRMlGi0koWhJUo0USUKXaktTvr7Txt4ycuJG850XLiSpSlNlElKSpcS11KHlKSpSlO5QpSkqUpRJQpQkyUJa7lDooSZKEokoUoSZI0tJKFKNE2iNKJKJKElSjRaWUSWupanb7lLnjLy4kbzHoTmlJUp0U6lElKSpSlO5QpQkyUJa7lElCSpSlElC0JMkaUSUTGkzQlpJQpQkuihKJKJj0SpQ2lgkjSXVDbCSi1a7otROvvkpSblKRPKyiSlJXNKU6lClKSpQlpJRJQkyRpTuUTHomSjRRZQpRolaNFpJRJQkjQ2llEkaTaI0okElDKkei0sotEaS6jaJBtrra0j0JLiSpS5heSmgpSkyUJa7lClCTJGlElElGiVobSyhaEl0RpRYLRQy6jS0kElCSpHoosFqNJWjVpYLRGy6jaLBaoSTVDaSCbXW1dJHo/KUmShInj5RaI0mSjRRJQpHom0R6LSyiSNlShomQ6KGXRHq02RJHqVj1aWD1HqTVGqLBNGpNR6tJBsbJqhosFqPUuo9WlyJu21aiSvTdEeiZI9QvGwSR6JWPVpYJI9S6j1aWC1GkrG0XI9Ral1Hq00HqPUmo9Wlg2PUrHqiwTRqTUerSweo2TUbRYPUepNRtpINtbV2iPTmPVrQvGwbHq1rS5HqPVrUaDfUba1pMj16j1ctaaI1Hq1rSwb+0NrUWD1Hq1rTQeo21qLkeo21rSQertrUR//9k=) left top repeat;
 }
 
-body{
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy23wSZuVfCj1m94YlkGsVtm9mR7HI-ZLnDg&usqp=CAU");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-  	background-size: cover;
-	font-family: times new roman, serif;
-	color: white;
-
+#color1 {
+  background-color: powderblue;
 }
 
-p{
-	font-size:175%;
+#color2 {
+  background-color: #69764A;
 }
 
 
-div.a {
-  text-indent: 50px;
+#color3 {
+  background-color: rgb(24,151,83);
 }
 
-div.b {
- 	transform: rotate(10deg);
+#color4 {
+  background-image: linear-gradient(to bottom right, teal, navy);
 }
 
-div.c {
- 	transform: rotate(-10deg);
+#color5 {
+  background-color: #808080;
 }
 
-div.d {
- 	text-align: center;
+#color6 {
+    background-color: hsl(170, 50%, 50%);
+    color: hsl(0, 50%, 50%);
 }
 
-div.e {
-  text-indent: 100px;
+#color7 {
+    background: hwb(287 55% 18%);
+}
+
+#color8 {
+  background-image: url('https://th.bing.com/th/id/OIP.gEL-zV0zaGMt-NWNIZo8HQHaFj?w=235&h=180&c=7&r=0&o=5&pid=1.7');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+
+body {
+  background-image: url('https://th.bing.com/th/id/OIP.1c3VmNVCD3CTsbTBge0M5QHaHa?w=181&h=181&c=7&r=0&o=5&pid=1.7');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 125% 125%;
+}
+
+#color9 {
+  background-color: Fuchsia;
+  opacity: 0.5
+
+}
+
+#curtain {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+a {
+  color: pink;
+
 }
 
 </style>
-
-<title> Family </title>
-
 </head>
 
 <body>
 
-<div class="d">
-	<p> "Family." </p>
-	<p> -Vinn Diesel </p>
+<div id="example1">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 </div>
 
-<div style="text-align:center;">
-	<a href="https://conctlectst.pages.dev/" style="font-size: 200%;">Return To The Simple Website</a>
+<div id="color1">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 </div>
-<hr>
 
-<p style="text-align: center;">As the qoute above show, this page will talk about family... Especially about my family</p>
+<div id="color2">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-<ul>
-	<li><p> My father </p></li>
-	
-	<div class="b">
-		<img align="right" src="images\father.jpg" alt="a picture of my father" width="15%" height="50%">
-	
-	</div>
+<div id="color3">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-	<div class="a">
-		<p>Growing up in a Catholic household, he is the youngest child with seven older siblings. He was an athlete during his school days and was still a bit after graduating college.</p>
+<div id="color4">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-		<p>My father; is a kind but serious man. He values an honest character.</p>
-		<p>His parenting method is raising my brother and I with independence.</p>
-		<p>So that once we are older, he knows that my brother and I can survive on our own without relying too much on our parents. </p>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	</div>
-	
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	
-	<li><p> My mother </p></li>
-	
-	<div class="c">
-		<img src="images\mother.jpg" alt="a picture of my mother" width="15%" height="50%" >
-	
-	</div>
+<div id="color5">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-	<BR/>
-	<BR/>
-	<BR/>
+<div id="color6">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-	<div class="e">
-		<p>Growing up in a Catholic household, she is the eldest child with two younger brothers. Growing up, my mother and her sibling did their best to finish school, and when they were not</p>
-		<p>busy, they did chores around the house and the farm. My mother; is a disciplined mother.</p>
-		<p>She expects proper manners, a clean household, and a presentable image from my</p>
-		<p>brother and I. Often, she wants me to shave my growing beard.</p>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
+<div id="color7">
+<h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-	</div>
-	
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
-	<BR/>
+<div id="color8">
+<h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-	<li><p> My younger brother </p></li>
-	
-	<div>
-		<img align="center" src="images\brother.jpg" alt="a picture of my father" width="15%" height="50%">
-	
-	</div>
+<div id="color9">
+<h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
 
-	<div class="a">
-		<p>My only younger brother. Five years younger than me, he has some difficulty understanding Tagalog and Visaya. Yet even then, he still tries his best to understand the language.
-
-		Currently, he plans to study"Civil Engineering" as a course in college.
-
-		Sometimes, he is me: He has my love for games, my creativity, my stubbornness, my sense of humor, and my hot-headedness. But often, he is the opposite of me: He is more artistic and creative, a great artist, and does not have my passion for anime.
-
-		But still, he is my brother. And my only brother.</p>
-
-	</div>
-</ul>
-
+<div id="curtain">
+  Want to return to<a href="https://conctlectst.pages.dev/">"Work Collection" </a>
+</div>
 
 </body>
 </html>
